@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Building the Docker image...
       - docker build -t pratyup/pratyushcicdawslab2 .
-      - docker tag training/mywebsiteforecs:latest 864899837235.dkr.ecr.ap-south-1.amazonaws.com/pratyush/myrepo:latest
+      - docker tag pratyup/pratyushcicdawslab2:latest 864899837235.dkr.ecr.ap-south-1.amazonaws.com/pratyush/myrepo:latest
 
   post_build:
     commands:
